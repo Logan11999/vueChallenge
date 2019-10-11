@@ -23,7 +23,6 @@
 
   <!-- Vue component styles -->
   <link href="components/adder/area.css" rel="stylesheet">
-  <link href="components/subtracter/subtracter.css" rel="stylesheet">
 
 </head>
 
@@ -35,13 +34,13 @@
       <article id="area" class="col-md-4 ">
         <h2>Base Calculator</h2>
         <fieldset class="mt-2">
-          <label for="base">Enter a base (1 to 100):</label>
+          <label for="base">Enter a base:</label>
           <input v-model="base" id="base" type="number" min="1" max="100">
           <span id="firstWarning" class="text-danger"></span>
         </fieldset>
 
         <fieldset class="mt-2">
-          <label for="height">Enter a height (1 to 100):</label>
+          <label for="height">Enter a height:</label>
           <input v-model="height" id="height" type="number" min="1" max="100">
           <span id="secondWarning" class="text-danger"></span>
         </fieldset>
