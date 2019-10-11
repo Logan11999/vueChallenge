@@ -8,9 +8,9 @@ const adder = new Vue({
   },
   computed: {
     result: function () {
-      const i = parseInt(this.base)
-      const j = parseInt(this.height)
-      return `The area is ${area(i, j)}.`
+      const b = parseInt(this.base)
+      const h = parseInt(this.height)
+      return `The area is ${area(b, h)}.`
     }
   }
 })
